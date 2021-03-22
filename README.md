@@ -59,6 +59,10 @@ jobs:
       - run: surge ./ ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
   ```
 
+## deploy to firebase
+
+`firebase login:ci --no-localhost` get token
+
 ## Deploy to glitch.com
 
 guide: https://github.com/marketplace/actions/glitch-project-sync 
