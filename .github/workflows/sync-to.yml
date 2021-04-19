@@ -2,7 +2,7 @@
 name: sync-to
 on:
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '0 0 17 ? * FRI'
   workflow_dispatch:
   watch:
     types: started
