@@ -3,9 +3,7 @@
 guide : https://github.com/yavisht/deploy-via-surge.sh-github-action-template
 ```yml
 name: Deploy Website
-
 on: [push]
-
 jobs:
   build:
     runs-on: ubuntu-latest
